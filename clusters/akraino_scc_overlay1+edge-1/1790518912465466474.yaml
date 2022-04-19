@@ -1,0 +1,12 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  creationTimestamp: null
+  name: "1790518912465466474"
+  namespace: default
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/Ruoyu-y/test-flux-1
+status: {}
