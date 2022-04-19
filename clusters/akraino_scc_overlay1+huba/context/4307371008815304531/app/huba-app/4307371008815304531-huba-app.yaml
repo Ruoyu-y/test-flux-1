@@ -1,1 +1,0 @@
-{"apiVersion":"k8splugin.io/v1alpha1","kind":"ResourceBundleState","metadata":{"creationTimestamp":null,"labels":{"emco/deployment-id":"4307371008815304531-huba-app"},"name":"4307371008815304531-huba-app","namespace":"default"},"spec":{"selector":{"matchLabels":{"emco/deployment-id":"4307371008815304531-huba-app"}}},"status":{"ready":false,"resourceCount":0}}
