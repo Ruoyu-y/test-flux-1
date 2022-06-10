@@ -1,0 +1,15 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  creationTimestamp: null
+  name: kcust2602543171431497767
+  namespace: default
+spec:
+  interval: 5m0s
+  path: clusters/akraino_scc_overlay1+edge-1/context/2602543171431497767
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: "2602543171431497767"
+  targetNamespace: default
+status: {}
